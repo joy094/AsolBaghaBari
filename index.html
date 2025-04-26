@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Asol Baghabari Ghee - Pure and Authentic Bangladeshi Ghee."
+    />
+    <meta
+      name="keywords"
+      content="Ghee, Baghabari Ghee, Pure Ghee, Asol Baghabari"
+    />
+    <meta name="author" content="Asol Baghabari" />
+    <title>Asol Baghabari Ghee</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Asol Baghabari Ghee</h1>
+        <nav>
+          <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#product" class="nav-link">Product</a></li>
+          </ul>
+        </nav>
+      </div>
+      <span id="home" class="hero">
+        <div class="container">
+          <h1 class="bangla-text"> আসল বাঘাবাড়ী ঘি এর আসল স্বাদে আপনাকে স্বাগতম।</h1>
+          <h2>Welcome to the Original Taste of Baghabari</h2>
+          <p>Pure, authentic, and full of flavor — just like it should be.</p>
+        </div>
+      </span>
+    </header>
+    
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Asol Baghabari Ghee is sourced from the finest dairy farms of
+          Baghabari, ensuring unmatched purity and taste. Trusted by
+          generations.
+        </p>
+      </div>
+    </section>
+    <section id="product" class="product">
+      <div class="container">
+        <h2>Our Product</h2>
+        <p>
+          Our ghee is 100% natural, rich in aroma, and perfect for cooking and
+          religious use.
+        </p>
+        <img src="ghee-jar.jpg" alt="Baghabari Ghee Jar" />
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Asol Baghabari Ghee | www.asolbaghabari.com</p>
+      </div>
+    </footer>
+    <script>
+      // Scroll-based menu highlight
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 100;
+          if (scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href").includes(current)) {
+            link.classList.add("active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
