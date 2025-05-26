@@ -1,87 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta Tags for Asol Baghabari Ghee-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Asol Baghabari Ghee - Pure and Authentic Bangladeshi Ghee."
-    />
+    <meta name="author" content="Asol Baghabari Ghee" />
     <meta
       name="keywords"
-      content="Ghee, Baghabari Ghee, Pure Ghee, Asol Baghabari"
+      content="ঘি, মামুন ফুড, Asol Baghabari Ghee,Asol Baghabari,Mamun Food, Mamun,mamunfood, বিশুদ্ধ ঘি, প্রাকৃতিক খাবার, দেশি ঘি"
     />
-    <meta name="author" content="Asol Baghabari" />
-    <title>Asol Baghabari Ghee</title>
-    <link rel="stylesheet" href="style.css">
+    <meta
+      name="description"
+      content="Asol Baghabari Ghee–  যেখানে আপনি পাবেন খাঁটি ও স্বাস্থ্যসম্মত ঘি এবং অন্যান্য খাদ্যপণ্য।"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>
+      Asol Baghabari Ghee | আসল বাঘাবাড়ী ঘি এর আসল স্বাদে আপনাকে স্বাগতম।
+    </title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+    <!-- Font Awesome CDN (Head এর মধ্যে রাখতে হবে) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Asol Baghabari Ghee</h1>
-        <nav>
+    <!-- header section-->
+    <div class="header_con">
+      <header>
+        <div class="logo">Asol Baghabari</div>
+        <h1 class="wel">Welcome to the Original Taste of Baghabari</h1>
+
+        <h1 class="bangla-text wel2" style="color: rgb(255, 255, 255)">
+          আসল বাঘাবাড়ী ঘি এর আসল স্বাদে আপনাকে স্বাগতম।
+        </h1>
+
+        <!--nav menu-->
+
+        <!-- mobile responsive nav -->
+        <nav class="nav-links">
+          <!-- mobile responsive nav -->
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a href="#" title="Close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li><a href="/" class="active">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+
+          <!-- desktop nav -->
           <ul>
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#product" class="nav-link">Product</a></li>
+            <li class="hideonMobile"><a href="/" class="">HOME</a></li>
+            <li class="hideonMobile"><a href="./about.html">ABOUT</a></li>
+
+            <li class="hideonMobile"><a href="./contact.html">CONTACT</a></li>
+            <li class="menu-icon" onclick="showSidebar()">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" />
+                </svg>
+              </a>
+            </li>
           </ul>
         </nav>
-      </div>
-      <span id="home" class="hero">
-        <div class="container">
-          <h1 class="bangla-text"> আসল বাঘাবাড়ী ঘি এর আসল স্বাদে আপনাকে স্বাগতম।</h1>
-          <h2>Welcome to the Original Taste of Baghabari</h2>
-          <p>Pure, authentic, and full of flavor — just like it should be.</p>
-        </div>
-      </span>
-    </header>
-    
-    <section id="about" class="about">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>
-          Asol Baghabari Ghee is sourced from the finest dairy farms of
-          Baghabari, ensuring unmatched purity and taste. Trusted by
-          generations.
+      </header>
+    </div>
+
+    <main>
+      <div class="all-products" id="all-products">Our All Products</div>
+      <div class="shake-text">আমাদের সকল পণ্য সমূহ</div>
+
+      <div class="card">
+        <img src="./images/1000 GM TIN.png" alt="butter" style="width: 100%" />
+        <p class="reg">Reg-136913</p>
+        <h2 class="export">New Radhuni Ghee (Export Quality)</h2>
+
+        <p class="price">&#2547;1000</p>
+        <b style="color: rgb(0, 98, 255)">1000 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
         </p>
       </div>
-    </section>
-    <section id="product" class="product">
-      <div class="container">
-        <h2>Our Product</h2>
-        <p>
-          Our ghee is 100% natural, rich in aroma, and perfect for cooking and
-          religious use.
+      <div class="card">
+        <img src="./images/500 GM TIN.png" alt="butter" style="width: 100%" />
+        <p class="reg">Reg-136913</p>
+        <h2 class="export">New Radhuni Ghee (Export Quality)</h2>
+        <p class="price">&#2547;500</p>
+        <b style="color: rgb(0, 98, 255)">500 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
         </p>
-        <img src="ghee-jar.jpg" alt="Baghabari Ghee Jar" />
       </div>
-    </section>
+      <div class="card">
+        <img src="./images/250 GM TIN.png" alt="butter" style="width: 100%" />
+        <p class="reg">Reg-136913</p>
+        <h2 class="export">New Radhuni Ghee (Export Quality)</h2>
+        <p class="price">&#2547;255</p>
+        <b style="color: rgb(0, 98, 255)">250 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+      <div class="card">
+        <img src="./images/100 GM TIN.png" alt="butter" style="width: 100%" />
+        <p class="reg">Reg-136913</p>
+        <h2 class="export">New Radhuni Ghee (Export Quality)</h2>
+        <p class="price">&#2547;130</p>
+        <b style="color: rgb(0, 98, 255)">100 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/City_TIN_1_KG.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;700</p>
+        <b style="color: rgb(0, 98, 255)">9000 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/City_TIN_500_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;350</p>
+        <b style="color: rgb(0, 98, 255)">500 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/City_TIN_250_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;180</p>
+        <b style="color: rgb(0, 98, 255)">250 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/City_TIN_100_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;95</p>
+        <b style="color: rgb(0, 98, 255)">100 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/NEW_CITY_900_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">New_City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;800</p>
+        <b style="color: rgb(0, 98, 255)">900 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/NEW_CITY_500_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">New_City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;400</p>
+        <b style="color: rgb(0, 98, 255)">450 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/NEW_CITY_225_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">New_City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;200</p>
+        <b style="color: rgb(0, 98, 255)">225gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/NEW_CITY_100_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">New_City Ghee (Export Quality)</h2>
+        <p class="price">&#2547;100</p>
+        <b style="color: rgb(0, 98, 255)">100 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/FINAL_City_TIN_with_Cap900_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">City Cow Butter Oill (Export Quality)</h2>
+        <p class="price">&#2547;600</p>
+        <b style="color: rgb(0, 98, 255)">900 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/FINAL_City_TIN_with_Cap_450_GM.png"
+          alt="butter"
+          style="width: 100%"
+        />
+        <p class="reg">Reg-124465</p>
+        <h2 class="export">City Cow Butter Oill (Export Quality)</h2>
+        <p class="price">&#2547;300</p>
+        <b style="color: rgb(0, 98, 255)">450 gm</b>
+        <p><button>Add to Cart</button></p>
+        <p class="bangla-text">
+          সরাসরি আলোচনা সাপেক্ষে ডিলারদের জন্যে প্রাইস কমানো যেতে পারে।
+        </p>
+      </div>
+    </main>
     <footer>
-      <div class="container">
-        <p>&copy; 2025 Asol Baghabari Ghee | www.asolbaghabari.com</p>
-      </div>
+      <p>&copy; 2025 Mamun Food. All rights reserved.</p>
+
+      <p>
+        Developed by <i class="fab fa-github"></i
+        ><span>
+          <a href="https://github.com/joy094" target="_blank"
+            >Md. Jakaria</a
+          ></span
+        >
+        <!-- GitHub Icon -->
+
+        <i class="fab fa-github"></i>
+      </p>
     </footer>
-    <script>
-      // Scroll-based menu highlight
-      const sections = document.querySelectorAll("section");
-      const navLinks = document.querySelectorAll(".nav-link");
-
-      window.addEventListener("scroll", () => {
-        let current = "";
-        sections.forEach((section) => {
-          const sectionTop = section.offsetTop - 100;
-          if (scrollY >= sectionTop) {
-            current = section.getAttribute("id");
-          }
-        });
-
-        navLinks.forEach((link) => {
-          link.classList.remove("active");
-          if (link.getAttribute("href").includes(current)) {
-            link.classList.add("active");
-          }
-        });
-      });
-    </script>
   </body>
 </html>
