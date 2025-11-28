@@ -1,6 +1,6 @@
 # 🚀 Project Title: AsolBaghaBari
 
-Welcome to the **asolbaghabari** repository! This is a modern, super-fast, and fully responsive static website built using core web technologies (HTML, CSS, and JavaScript).
+Welcome to the **AsolBaghaBari** repository! This is a modern, super-fast, and fully responsive static website built using core web technologies (HTML, CSS, and JavaScript).
 
 ---
 
@@ -61,7 +61,7 @@ To ensure continuous accessibility and reliability for all stakeholders, this pr
 
 - **2. Vercel Backup Link (Permanent Access):**
   (This link guarantees access even if the primary domain expires)
-  👉 **https://asolbaghabari-avo9vba06-joy094s-projects.vercel.app/**
+  👉 **https://asolbaghabari.vercel.app/**
 
 ---
 
