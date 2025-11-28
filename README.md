@@ -1,4 +1,4 @@
-# 🚀 Project Title: asolbaghabari
+# 🚀 Project Title: AsolBaghaBari
 
 Welcome to the **asolbaghabari** repository! This is a modern, super-fast, and fully responsive static website built using core web technologies (HTML, CSS, and JavaScript).
 
