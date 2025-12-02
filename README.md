@@ -42,11 +42,11 @@ You only need a modern web browser (like Chrome, Firefox, or Edge) installed on 
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/joy094/AsolBaghaBari
+    git clone https://github.com/joy094/asol-bagha-bari
     ```
 2.  Navigate into the project folder:
     ```bash
-    cd AsolBaghaBari
+    cd asol-bagha-bari
     ```
 3.  Open the `index.html` file in your preferred web browser to view the site.
 
